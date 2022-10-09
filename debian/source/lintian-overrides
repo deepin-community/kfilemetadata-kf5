@@ -1,0 +1,18 @@
+# From autotests/appimageextractortest.cpp
+# /*
+# The test.AppImage got created by:
+#
+# wget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
+# chmod +x linuxdeploy-x86_64.AppImage
+# ./linuxdeploy-x86_64.AppImage --appdir AppDir --output appimage --executable=/usr/bin/echo --desktop-file=appimagetest.desktop --icon-file=/usr/share/icons/oxygen/base/16x16/apps/kde.png
+# mkdir AppDir/usr/share/metainfo/
+# cp org.kde.kfilemetadata.appimagetest.appdata.xml AppDir/usr/share/metainfo/
+# ./linuxdeploy-x86_64.AppImage --appdir AppDir --output appimage
+# mv Test_Desktop_Name-x86_64.AppImage test.AppImage
+#
+# To edit the appdata.xml & desktop file, run ./test.AppImage --appimage-extract to get the files.
+# Use linuxdeploy to create the appimage then again.
+# */
+# This file is only used in the autotests for the appimage support
+kfilemetadata-kf5 source: source-is-missing autotests/samplefiles/test.AppImage
+kfilemetadata-kf5 source: source-contains-prebuilt-binary autotests/samplefiles/test.AppImage
