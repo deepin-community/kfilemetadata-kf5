@@ -3,13 +3,13 @@
 #
 # Balázs Úr <urbalazs@gmail.com>, 2014.
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2014, 2015.
-# Kristof Kiszel <kiszel.kristof@gmail.com>, 2018.
+# Kristof Kiszel <kiszel.kristof@gmail.com>, 2018, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-06-09 02:02+0200\n"
-"PO-Revision-Date: 2018-10-23 19:00+0200\n"
+"PO-Revision-Date: 2021-11-08 11:12+0100\n"
 "Last-Translator: Kristof Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -17,293 +17,289 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 21.08.3\n"
 
 #: src/formatstrings.cpp:64
 #, kde-format
 msgctxt "@label bitrate (per second)"
 msgid "%1/s"
-msgstr ""
+msgstr "%1/s"
 
 #: src/formatstrings.cpp:78
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Unchanged"
-msgstr ""
+msgstr "Változatlan"
 
 #: src/formatstrings.cpp:79
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Horizontally flipped"
-msgstr ""
+msgstr "Vízszintesen tükrözve"
 
 #: src/formatstrings.cpp:80
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "180° rotated"
-msgstr ""
+msgstr "180°-kal elforgatva"
 
 #: src/formatstrings.cpp:81
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Vertically flipped"
-msgstr ""
+msgstr "Függőlegesen tükrözve"
 
 #: src/formatstrings.cpp:82
-#, fuzzy, kde-format
-#| msgctxt "@label number of translated strings"
-#| msgid "Translations"
+#, kde-format
 msgctxt "Description of image orientation"
 msgid "Transposed"
-msgstr "Fordítások"
+msgstr "Transzponálva"
 
 #: src/formatstrings.cpp:83
 #, kde-format
 msgctxt "Description of image orientation, counter clock-wise rotated"
 msgid "90° rotated CCW "
-msgstr ""
+msgstr "90°-kal elforgatva balra "
 
 #: src/formatstrings.cpp:84
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Transversed"
-msgstr ""
+msgstr "Fekvő"
 
 #: src/formatstrings.cpp:85
 #, kde-format
 msgctxt "Description of image orientation, counter clock-wise rotated"
 msgid "270° rotated CCW"
-msgstr ""
+msgstr "270°-kal elforgatva balra"
 
 #: src/formatstrings.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Flash"
+#, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash"
-msgstr "Fénykép vaku"
+msgstr "Nincs vaku"
 
 #: src/formatstrings.cpp:97
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired"
-msgstr ""
+msgstr "Elsütve"
 
 #: src/formatstrings.cpp:98
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired, return light not detected"
-msgstr ""
+msgstr "Elsütve, nincs visszatérő fény"
 
 #: src/formatstrings.cpp:99
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired, return light detected"
-msgstr ""
+msgstr "Elsütve, visszatérő fény észlelve"
 
 #: src/formatstrings.cpp:100
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, did not fire"
-msgstr ""
+msgstr "Igen, nem sütötte el"
 
 #: src/formatstrings.cpp:101
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory"
-msgstr ""
+msgstr "Igen, kötelezően"
 
 #: src/formatstrings.cpp:102
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, return light not detected"
-msgstr ""
+msgstr "Igen, kötelezően, nincs visszatérő fény"
 
 #: src/formatstrings.cpp:103
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, return light detected"
-msgstr ""
+msgstr "Igen, kötelezően, visszatérő fény észlelve"
 
 #: src/formatstrings.cpp:104
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, compulsory"
-msgstr ""
+msgstr "Nem, kötelezően"
 
 #: src/formatstrings.cpp:105
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, did not fire, return light not detected"
-msgstr ""
+msgstr "Nem, nincs elsütve, nincs visszatérő fény"
 
 #: src/formatstrings.cpp:106
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, auto"
-msgstr ""
+msgstr "Nem, automatikus"
 
 #: src/formatstrings.cpp:107
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto"
-msgstr ""
+msgstr "Igen, automatikus"
 
 #: src/formatstrings.cpp:108
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, return light not detected"
-msgstr ""
+msgstr "Igen, automatikus, nincs visszatérő fény"
 
 #: src/formatstrings.cpp:109
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, return light detected"
-msgstr ""
+msgstr "Igen, automatikus, visszatérő fény észlelve"
 
 #: src/formatstrings.cpp:110
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash function"
-msgstr ""
+msgstr "Nincs vaku funkció"
 
 #: src/formatstrings.cpp:111
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, no flash function"
-msgstr ""
+msgstr "Nem, nincs vaku funkció"
 
 #: src/formatstrings.cpp:112
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction"
-msgstr ""
+msgstr "Igen, vörösszem-csökkentés"
 
 #: src/formatstrings.cpp:113
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "Igen, vörösszem-csökkentés, nincs visszatérő fény"
 
 #: src/formatstrings.cpp:114
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction, return light detected"
-msgstr ""
+msgstr "Igen, vörösszem-csökkentés, visszatérő fény észlelve"
 
 #: src/formatstrings.cpp:115
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction"
-msgstr ""
+msgstr "Igen, kötelezően, vörösszem-csökkentés"
 
 #: src/formatstrings.cpp:116
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "Igen, kötelezően, vörösszem-csökkentés, nincs visszatérő fény"
 
 #: src/formatstrings.cpp:117
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction, return light detected"
-msgstr ""
+msgstr "Igen, kötelezően, vörösszem-csökkentés, visszatérő fény észlelve"
 
 #: src/formatstrings.cpp:118
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, red-eye reduction"
-msgstr ""
+msgstr "Nem, vörösszem-csökkentés"
 
 #: src/formatstrings.cpp:119
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, auto, red-eye reduction"
-msgstr ""
+msgstr "Nem, automatikus, vörösszem-csökkentés"
 
 #: src/formatstrings.cpp:120
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction"
-msgstr ""
+msgstr "Igen, automatikus, vörösszem-csökkentés"
 
 #: src/formatstrings.cpp:121
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "Igen, automatikus, vörösszem-csökkentés, nincs visszatérő fény"
 
 #: src/formatstrings.cpp:122
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction, return light detected"
-msgstr ""
+msgstr "Igen, automatikus, vörösszem-csökkentés, visszatérő fény észlelve"
 
 #: src/formatstrings.cpp:127
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "Ismeretlen"
 
 #: src/formatstrings.cpp:134
 #, kde-format
 msgctxt "Symbol of degree, no space"
 msgid "%1°"
-msgstr ""
+msgstr "%1°"
 
 #: src/formatstrings.cpp:145
 #, kde-format
 msgctxt "Focal length given in mm"
 msgid "%1 mm"
-msgstr ""
+msgstr "%1 mm"
 
 #: src/formatstrings.cpp:150
 #, kde-format
 msgctxt "Symbol of frames per second, with space"
 msgid "%1 fps"
-msgstr ""
+msgstr "%1 fps"
 
 #: src/formatstrings.cpp:160
 #, kde-format
 msgctxt "Time period given in seconds as rational number, denominator is given"
 msgid "1/%1 s"
-msgstr ""
+msgstr "1/%1 s"
 
 #: src/formatstrings.cpp:163
 #, kde-format
 msgctxt "Time period given in seconds"
 msgid "%1 s"
-msgstr ""
+msgstr "%1 s"
 
 #: src/formatstrings.cpp:179
 #, kde-format
 msgctxt "Exposure bias/compensation in exposure value (EV)"
 msgid "%1 EV"
-msgstr ""
+msgstr "%1 EV"
 
 #: src/formatstrings.cpp:193
 #, kde-format
 msgctxt ""
 "Exposure compensation given as integral with fraction, in exposure value (EV)"
 msgid "%1 %2/%3 EV"
-msgstr ""
+msgstr "%1 %2/%3 EV"
 
 #: src/formatstrings.cpp:196
 #, kde-format
 msgctxt "Exposure compensation given as rational, in exposure value (EV)"
 msgid "%1/%2 EV"
-msgstr ""
+msgstr "%1/%2 EV"
 
 #: src/formatstrings.cpp:201
 #, kde-format
 msgctxt "Aspect ratio, normalized to one"
 msgid "%1:1"
-msgstr ""
+msgstr "%1:1"
 
 #: src/formatstrings.cpp:206
 #, kde-format
 msgctxt "F number for photographs"
 msgid "f/%1"
-msgstr ""
+msgstr "f/%1"
 
 #: src/propertyinfo.cpp:49
 #, kde-format
@@ -417,15 +413,13 @@ msgstr "Kép dátum és idő"
 #, kde-format
 msgctxt "@label EXIF"
 msgid "Manufacturer"
-msgstr ""
+msgstr "Gyártó"
 
 #: src/propertyinfo.cpp:179
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Image Model"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Model"
-msgstr "Kép modell"
+msgstr "Modell"
 
 #: src/propertyinfo.cpp:186
 #, kde-format
@@ -464,148 +458,112 @@ msgid "Page Count"
 msgstr "Oldalszám"
 
 #: src/propertyinfo.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Aperture Value"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Aperture Value"
-msgstr "Fénykép apertúraérték"
+msgstr "Rekeszérték"
 
 #: src/propertyinfo.cpp:232
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Original Date Time"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Original Date Time"
-msgstr "Fénykép eredeti dátum és idő"
+msgstr "Eredeti dátum és idő"
 
 #: src/propertyinfo.cpp:239
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Exposure Bias"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Exposure Bias"
-msgstr "Fénykép expozíció torzítás"
+msgstr "Expozíció torzítás"
 
 #: src/propertyinfo.cpp:246
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Exposure Time"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Exposure Time"
-msgstr "Fénykép exponálási idő"
+msgstr "Exponálási idő"
 
 #: src/propertyinfo.cpp:253
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Flash"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Flash"
-msgstr "Fénykép vaku"
+msgstr "Vaku"
 
 #: src/propertyinfo.cpp:260
-#, fuzzy, kde-format
-#| msgctxt "@label music disc number"
-#| msgid "Disc Number"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "F Number"
-msgstr "Lemez sorszám"
+msgstr "Rekesz"
 
 #: src/propertyinfo.cpp:267
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Focal Length"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Focal Length"
-msgstr "Fénykép fókusztávolság"
+msgstr "Fókusztávolság"
 
 #: src/propertyinfo.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Focal Length 35mm"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Focal Length 35mm"
-msgstr "Fénykép 35mm fókusztávolság"
+msgstr "35 mm-es fókusztávolság"
 
 #: src/propertyinfo.cpp:281
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Latitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Latitude"
-msgstr "Fénykép GPS szélesség"
+msgstr "GPS szélesség"
 
 #: src/propertyinfo.cpp:288
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Longitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Longitude"
-msgstr "Fénykép GPS hosszúság"
+msgstr "GPS hosszúság"
 
 #: src/propertyinfo.cpp:295
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Altitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Altitude"
-msgstr "Fénykép GPS magasság"
+msgstr "GPS magasság"
 
 #: src/propertyinfo.cpp:302
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo ISO Speed Rating"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "ISO Speed Rating"
-msgstr "Fénykép ISO-sebesség arány"
+msgstr "ISO-sebesség arány"
 
 #: src/propertyinfo.cpp:308
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Metering Mode"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Metering Mode"
-msgstr "Fénykép mérési mód"
+msgstr "Mérési mód"
 
 #: src/propertyinfo.cpp:314
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo X Dimension"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "X Dimension"
-msgstr "Fénykép X dimenzió"
+msgstr "X dimenzió"
 
 #: src/propertyinfo.cpp:320
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Y Dimension"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Y Dimension"
-msgstr "Fénykép Y dimenzió"
+msgstr "Y dimenzió"
 
 #: src/propertyinfo.cpp:326
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Duration"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Saturation"
-msgstr "Időtartam"
+msgstr "Telítettség"
 
 #: src/propertyinfo.cpp:332
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Sharpness"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Sharpness"
-msgstr "Fénykép élesség"
+msgstr "Élesség"
 
 #: src/propertyinfo.cpp:338
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo White Balance"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "White Balance"
-msgstr "Fénykép fehéregyensúly"
+msgstr "Fehéregyensúly"
 
 #: src/propertyinfo.cpp:344
 #, kde-format

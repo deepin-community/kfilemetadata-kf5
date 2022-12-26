@@ -73,7 +73,7 @@ void XmlExtractorTests::benchMarkXmlExtractor()
 
     QString content = QStringLiteral("foo bar\n");
     content.replace(QLatin1Char('\n'), QLatin1Char(' '));
-    QCOMPARE(result.text().leftRef(8), content.leftRef(8));
+    QCOMPARE(result.text().left(8), content.left(8));
     QCOMPARE(result.text().size(), 8 * count);
 
     QBENCHMARK {
@@ -120,6 +120,34 @@ void XmlExtractorTests::testXmlExtractorNoContent()
 
     QCOMPARE(result.properties().size(), 1);
     QCOMPARE(result.properties().value(Property::Title).toString(), QStringLiteral("Document Title"));
+
+    QVERIFY(result.text().isEmpty());
+}
+
+void XmlExtractorTests::testXmlExtractorNoContentDcterms()
+{
+    XmlExtractor plugin{this};
+
+    SimpleExtractionResult result(testFilePath(QStringLiteral("test_dcterms.svg")),
+            QStringLiteral("image/svg"),
+            ExtractionResult::ExtractMetaData);
+    plugin.extract(&result);
+
+    QCOMPARE(result.types().size(), 1);
+    QCOMPARE(result.types().at(0), Type::Image);
+
+    const auto properties = result.properties();
+    QCOMPARE(properties.size(), 6);
+    QCOMPARE(properties.value(Property::Description).toString(),
+             QStringLiteral("A test document for Dublin Core Terms namespace"));
+    QCOMPARE(properties.value(Property::Title).toString(), QStringLiteral("Document Title"));
+    QCOMPARE(properties.value(Property::Author).toString(), QStringLiteral("Stefan Brüns"));
+    QCOMPARE(properties.value(Property::Language).toString(), QStringLiteral("en"));
+
+    const auto subjects = QVariantList(properties.lowerBound(Property::Subject),
+                                       properties.upperBound(Property::Subject));
+    QCOMPARE(subjects.size(), 2);
+    QCOMPARE(subjects, QVariantList({QStringLiteral("Testing"), QStringLiteral("Dublin Core")}));
 
     QVERIFY(result.text().isEmpty());
 }

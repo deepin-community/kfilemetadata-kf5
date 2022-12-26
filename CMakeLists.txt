@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(KF_VERSION "5.86.0") # handled by release scripts
-set(KF_DEP_VERSION "5.86.0") # handled by release scripts
+set(KF_VERSION "5.90.0") # handled by release scripts
+set(KF_DEP_VERSION "5.90.0") # handled by release scripts
 project(KFileMetaData VERSION ${KF_VERSION})
 
 include(FeatureSummary)
-find_package(ECM 5.86.0  NO_MODULE)
+find_package(ECM 5.90.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
@@ -81,11 +81,6 @@ set_package_properties(FFmpeg PROPERTIES DESCRIPTION "Video Tag reader"
                        URL "https://ffmpeg.org/" TYPE OPTIONAL
                        PURPOSE "Support for video metadata")
 
-if (FFmpeg_AVFORMAT_FOUND)
-    set(CMAKE_REQUIRED_INCLUDES ${AVCODEC_INCLUDE_DIRS})
-    CHECK_STRUCT_HAS_MEMBER(AVStream codecpar "stdint.h;libavformat/avformat.h" HAVE_AVSTREAM_CODECPAR LANGUAGE CXX)
-endif()
-
 find_package(EPub)
 set_package_properties(EPub PROPERTIES DESCRIPTION "Ebook epub reader"
                        URL "https://sourceforge.net/projects/ebook-tools/" TYPE OPTIONAL
@@ -117,7 +112,7 @@ set_package_properties(libappimage PROPERTIES DESCRIPTION "Core library of the A
                        )
 
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050e00) # TODO look into the QMap::insertMulti usage
-add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
+add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055900)
 add_definitions(-DTRANSLATION_DOMAIN=\"kfilemetadata5\")
 add_subdirectory(src)
 if (BUILD_TESTING)

@@ -152,6 +152,7 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZNK13KFileMetaData17EmbeddedImageData9imageDataERK7QString6QFlagsINS0_9ImageTypeEE@Base 5.49.0
  _ZNK13KFileMetaData17EmbeddedImageData9mimeTypesEv@Base 5.52.0
  _ZNK13KFileMetaData19ExtractorCollection15fetchExtractorsERK7QString@Base 5.0.2+git20140925
+ _ZNK13KFileMetaData22SimpleExtractionResult10propertiesENS_17PropertiesMapTypeE@Base 5.90.0
  _ZNK13KFileMetaData22SimpleExtractionResult10propertiesEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData22SimpleExtractionResult4textEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData22SimpleExtractionResult5typesEv@Base 5.0.2+git20140925
@@ -162,6 +163,7 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZNK13KFileMetaData8TypeInfo4typeEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData9Extractor19extractorPropertiesEv@Base 5.61.0
  _ZNK13KFileMetaData9Extractor9mimetypesEv@Base 5.0.2+git20140925
+ _ZNK13KFileMetaData9WriteData10propertiesEv@Base 5.90.0
  _ZNK13KFileMetaData9WriteData13inputMimetypeEv@Base 5.22.0
  _ZNK13KFileMetaData9WriteData16getAllPropertiesEv@Base 5.22.0
  _ZNK13KFileMetaData9WriteData8inputUrlEv@Base 5.22.0
