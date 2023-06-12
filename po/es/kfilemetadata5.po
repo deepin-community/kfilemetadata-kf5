@@ -822,3 +822,39 @@ msgstr "Vídeo"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Carpeta"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Marca de la imagen"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Número F de la foto"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Saturación de la foto"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Software usado para generar el documento"
+
+#~ msgid "Path does not seem to contain a valid plugin"
+#~ msgstr "Parece que la ruta no contiene un complemento válido"
+
+#~ msgid "Manifest does not seem to be a valid JSON Object"
+#~ msgstr "Parece que el manifiesto no es un objeto JSON válido"
+
+#~ msgid "Something went wrong while trying to write data"
+#~ msgstr "Algo ha ido mal al intentar escribir datos"
+
+#~| msgid "Plugin could not be converted to an WriterPlugin"
+#~ msgid "Plugin could not be converted to a WriterPlugin"
+#~ msgstr "El complemento no se puede convertir en un complemento de Writer"
+
+#~ msgid "Plugin could not create instance"
+#~ msgstr "El complemento no puede crear una instancia"

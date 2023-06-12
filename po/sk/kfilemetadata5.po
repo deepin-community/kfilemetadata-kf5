@@ -819,3 +819,27 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Priečinok"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Výrobca obrázku"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "F číslo fotky"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Nasýtenie fotky"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Softvér použitý na generovanie dokumentu"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Vytvoril"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generátor"

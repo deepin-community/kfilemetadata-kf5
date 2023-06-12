@@ -10,9 +10,11 @@
 #include "types.h"
 #include "kfilemetadata_export.h"
 #include <QString>
+#include <memory>
 
 namespace KFileMetaData {
 
+class TypeInfoPrivate;
 /**
  * \class TypeInfo typeinfo.h <KFileMetaData/TypeInfo>
  */
@@ -24,7 +26,18 @@ public:
     ~TypeInfo();
 
     TypeInfo& operator=(const TypeInfo& rhs);
+
+#if KFILEMETADATA_ENABLE_DEPRECATED_SINCE(5, 91)
+    /*
+     * @deprecated since 5.91 Use TypeInfo::operator==() const instead.
+     */
+KFILEMETADATA_DEPRECATED_VERSION(5, 91, "Use TypeInfo::operator==() const instead")
     bool operator==(const TypeInfo& rhs);
+#endif
+    /*
+     * @since 5.91
+     */
+    bool operator==(const TypeInfo& rhs) const;
 
     /**
      * The type identifier
@@ -48,8 +61,7 @@ public:
     static TypeInfo fromName(const QString& name);
 
 private:
-    class Private;
-    Private* d;
+    const std::unique_ptr<TypeInfoPrivate> d;
 };
 }
 

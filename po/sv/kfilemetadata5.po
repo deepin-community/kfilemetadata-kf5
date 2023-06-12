@@ -821,3 +821,50 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Katalog"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Bildmärke"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Bländartal foto"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Färgmättnad för foto"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Unkown"
+#~ msgstr "Okänd"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Programvara använd för att skapa dokumentet"
+
+#~ msgid "Path does not seem to contain a valid plugin"
+#~ msgstr "Sökvägen verkar inte innehåller ett giltigt insticksprogram"
+
+#~ msgid "Manifest does not seem to be a valid JSON Object"
+#~ msgstr "Manifest verkar inte vara ett giltigt JSON-objekt"
+
+#~ msgid "Something went wrong while trying to write data"
+#~ msgstr "Någonting gick fel vid försök att skriva data"
+
+#~| msgid "Plugin could not be converted to an WriterPlugin"
+#~ msgid "Plugin could not be converted to a WriterPlugin"
+#~ msgstr "Insticksprogrammet kunde inte konverteras till WriterPlugin"
+
+#~ msgid "Plugin could not create instance"
+#~ msgstr "Insticksprogrammet kunde inte skapa instans"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Skapare"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generator"

@@ -2,305 +2,310 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Svetoslav Stefanov <svetlisashkov@yahoo.com>, 2014.
+# Mincho Kondarev <mkondarev@yahoo.de>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kfilemetadata\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-06-09 02:02+0200\n"
-"PO-Revision-Date: 2014-05-17 22:19+0200\n"
-"Last-Translator: Svetoslav Stefanov <svetlisashkov@yahoo.com>\n"
-"Language-Team: BULGARIAN <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2022-07-10 11:59+0200\n"
+"Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
+"Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Lokalize 22.04.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: src/formatstrings.cpp:64
 #, kde-format
 msgctxt "@label bitrate (per second)"
 msgid "%1/s"
-msgstr ""
+msgstr "%1/s"
 
 #: src/formatstrings.cpp:78
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Unchanged"
-msgstr ""
+msgstr "Непроменен"
 
 #: src/formatstrings.cpp:79
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Horizontally flipped"
-msgstr ""
+msgstr "Хоризонтално обърнато"
 
 #: src/formatstrings.cpp:80
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "180° rotated"
-msgstr ""
+msgstr "Завъртяно на 180 °"
 
 #: src/formatstrings.cpp:81
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Vertically flipped"
-msgstr ""
+msgstr "Вертикално обърнато"
 
 #: src/formatstrings.cpp:82
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Transposed"
-msgstr ""
+msgstr "Транспонирано"
 
 #: src/formatstrings.cpp:83
 #, kde-format
 msgctxt "Description of image orientation, counter clock-wise rotated"
 msgid "90° rotated CCW "
-msgstr ""
+msgstr "Завъртяно на 90 ° обратно на ч.с."
 
 #: src/formatstrings.cpp:84
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Transversed"
-msgstr ""
+msgstr "Пресечено"
 
 #: src/formatstrings.cpp:85
 #, kde-format
 msgctxt "Description of image orientation, counter clock-wise rotated"
 msgid "270° rotated CCW"
-msgstr ""
+msgstr "Завъртяно на 270 ° обратно на ч.с."
 
 #: src/formatstrings.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Flash"
+#, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash"
-msgstr "Снимка - светкавица"
+msgstr "Без светкавица"
 
 #: src/formatstrings.cpp:97
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired"
-msgstr ""
+msgstr "Със светкавица"
 
 #: src/formatstrings.cpp:98
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired, return light not detected"
-msgstr ""
+msgstr "Със светкавица,няма засичане на обратна светлина"
 
 #: src/formatstrings.cpp:99
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired, return light detected"
-msgstr ""
+msgstr "Със светкавица,засичане на обратна светлина"
 
 #: src/formatstrings.cpp:100
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, did not fire"
-msgstr ""
+msgstr "Да, не светна"
 
 #: src/formatstrings.cpp:101
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory"
-msgstr ""
+msgstr "Да, принудително"
 
 #: src/formatstrings.cpp:102
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, return light not detected"
-msgstr ""
+msgstr "Да, принудително,няма засичане на обратна светлина"
 
 #: src/formatstrings.cpp:103
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, return light detected"
-msgstr ""
+msgstr "Да, принудително,засичане на обратна светлина"
 
 #: src/formatstrings.cpp:104
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, compulsory"
-msgstr ""
+msgstr "Не, принудително"
 
 #: src/formatstrings.cpp:105
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, did not fire, return light not detected"
-msgstr ""
+msgstr "Не, не светна,няма засичане на обратна светлина"
 
 #: src/formatstrings.cpp:106
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, auto"
-msgstr ""
+msgstr "Не, автоматично"
 
 #: src/formatstrings.cpp:107
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto"
-msgstr ""
+msgstr "Да, автоматично"
 
 #: src/formatstrings.cpp:108
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, return light not detected"
-msgstr ""
+msgstr "Да, автоматично,няма засичане на обратна светлина"
 
 #: src/formatstrings.cpp:109
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, return light detected"
-msgstr ""
+msgstr "Да, автоматично,засичане на обратна светлина"
 
 #: src/formatstrings.cpp:110
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash function"
-msgstr ""
+msgstr "Няма функция за светкавица"
 
 #: src/formatstrings.cpp:111
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, no flash function"
-msgstr ""
+msgstr "Не, няма функция за светкавица"
 
 #: src/formatstrings.cpp:112
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction"
-msgstr ""
+msgstr "Да, намаляване на червените очи"
 
 #: src/formatstrings.cpp:113
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "Да, намаляване на червените очи,няма засичане на обратна светлина"
 
 #: src/formatstrings.cpp:114
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction, return light detected"
-msgstr ""
+msgstr "Да, намаляване на червените очи, засичане на обратна светлина"
 
 #: src/formatstrings.cpp:115
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction"
-msgstr ""
+msgstr "Да, задължително намаляване на ефекта на червените очи"
 
 #: src/formatstrings.cpp:116
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction, return light not detected"
 msgstr ""
+"Да, задължително намаляване на ефекта на червените очи,няма засичане на "
+"обратна светлина"
 
 #: src/formatstrings.cpp:117
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction, return light detected"
 msgstr ""
+"Да, задължително, намаляване на червените очи, засичане на обратна светлина"
 
 #: src/formatstrings.cpp:118
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, red-eye reduction"
-msgstr ""
+msgstr "Не, намаляване на червените очи"
 
 #: src/formatstrings.cpp:119
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, auto, red-eye reduction"
-msgstr ""
+msgstr "Не, автоматично, намаляване на червените очи"
 
 #: src/formatstrings.cpp:120
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction"
-msgstr ""
+msgstr "Да, автоматично, намаляване на червените очи"
 
 #: src/formatstrings.cpp:121
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction, return light not detected"
 msgstr ""
+"Да, автоматично, намаляване на червените очи,няма засичане на обратна "
+"светлина"
 
 #: src/formatstrings.cpp:122
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction, return light detected"
 msgstr ""
+"Да, автоматично, намаляване на червените очи, засичане на обратна светлина"
 
 #: src/formatstrings.cpp:127
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестно"
 
 #: src/formatstrings.cpp:134
 #, kde-format
 msgctxt "Symbol of degree, no space"
 msgid "%1°"
-msgstr ""
+msgstr "%1°"
 
 #: src/formatstrings.cpp:145
 #, kde-format
 msgctxt "Focal length given in mm"
 msgid "%1 mm"
-msgstr ""
+msgstr "%1 мм"
 
 #: src/formatstrings.cpp:150
 #, kde-format
 msgctxt "Symbol of frames per second, with space"
 msgid "%1 fps"
-msgstr ""
+msgstr "%1 fps"
 
 #: src/formatstrings.cpp:160
 #, kde-format
 msgctxt "Time period given in seconds as rational number, denominator is given"
 msgid "1/%1 s"
-msgstr ""
+msgstr "1/%1 s"
 
 #: src/formatstrings.cpp:163
 #, kde-format
 msgctxt "Time period given in seconds"
 msgid "%1 s"
-msgstr ""
+msgstr "%1 s"
 
 #: src/formatstrings.cpp:179
 #, kde-format
 msgctxt "Exposure bias/compensation in exposure value (EV)"
 msgid "%1 EV"
-msgstr ""
+msgstr "%1 ЕС"
 
 #: src/formatstrings.cpp:193
 #, kde-format
 msgctxt ""
 "Exposure compensation given as integral with fraction, in exposure value (EV)"
 msgid "%1 %2/%3 EV"
-msgstr ""
+msgstr "%1 %2/%3 ЕС"
 
 #: src/formatstrings.cpp:196
 #, kde-format
 msgctxt "Exposure compensation given as rational, in exposure value (EV)"
 msgid "%1/%2 EV"
-msgstr ""
+msgstr "%1/%2 ЕС"
 
 #: src/formatstrings.cpp:201
 #, kde-format
 msgctxt "Aspect ratio, normalized to one"
 msgid "%1:1"
-msgstr ""
+msgstr "%1:1"
 
 #: src/formatstrings.cpp:206
 #, kde-format
 msgctxt "F number for photographs"
 msgid "f/%1"
-msgstr ""
+msgstr "f/%1"
 
 #: src/propertyinfo.cpp:49
 #, kde-format
@@ -390,7 +395,7 @@ msgstr "Кадрова честота"
 #, kde-format
 msgctxt "@label"
 msgid "Document Generated By"
-msgstr ""
+msgstr "Документ, генериран от"
 
 #: src/propertyinfo.cpp:153
 #, kde-format
@@ -414,15 +419,13 @@ msgstr "Изображение - дата и час"
 #, kde-format
 msgctxt "@label EXIF"
 msgid "Manufacturer"
-msgstr ""
+msgstr "Производител"
 
 #: src/propertyinfo.cpp:179
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Image Model"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Model"
-msgstr "Изображение - модел"
+msgstr "Модел"
 
 #: src/propertyinfo.cpp:186
 #, kde-format
@@ -461,142 +464,112 @@ msgid "Page Count"
 msgstr "Брой страници"
 
 #: src/propertyinfo.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Aperture Value"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Aperture Value"
-msgstr "Снимка - апертура"
+msgstr "Стойност на блендата"
 
 #: src/propertyinfo.cpp:232
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Original Date Time"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Original Date Time"
-msgstr "Снимка - оригинални дата и час"
+msgstr "Оригинална дата"
 
 #: src/propertyinfo.cpp:239
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Exposure Bias"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Exposure Bias"
-msgstr "Снимка - компенсация на експозицията"
+msgstr "Експозиция"
 
 #: src/propertyinfo.cpp:246
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Exposure Time"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Exposure Time"
-msgstr "Снимка - експозиция"
+msgstr "Време на експозиция"
 
 #: src/propertyinfo.cpp:253
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Flash"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Flash"
-msgstr "Снимка - светкавица"
+msgstr "Светкавица"
 
 #: src/propertyinfo.cpp:260
-#, fuzzy, kde-format
-#| msgctxt "@label music track number"
-#| msgid "Track Number"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "F Number"
-msgstr "Номер на песен"
+msgstr "F номер"
 
 #: src/propertyinfo.cpp:267
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Focal Length"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Focal Length"
-msgstr "Снимка - фокусно разстояние"
+msgstr "Фокусно разстояние"
 
 #: src/propertyinfo.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Focal Length 35mm"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Focal Length 35mm"
-msgstr "Снимка - 35mm фокусно разстояние"
+msgstr "Фокусно разстояние 35mm"
 
 #: src/propertyinfo.cpp:281
 #, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Latitude"
-msgstr ""
+msgstr "GPS ширина"
 
 #: src/propertyinfo.cpp:288
 #, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Longitude"
-msgstr ""
+msgstr "GPS дължина"
 
 #: src/propertyinfo.cpp:295
 #, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Altitude"
-msgstr ""
+msgstr "GPS надморска височина"
 
 #: src/propertyinfo.cpp:302
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo ISO Speed Rating"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "ISO Speed Rating"
-msgstr "Снимка - скорост ISO"
+msgstr "Оценка на ISO скорост"
 
 #: src/propertyinfo.cpp:308
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Metering Mode"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Metering Mode"
-msgstr "Снимка - режим на измерване"
+msgstr "Режим на измерване"
 
 #: src/propertyinfo.cpp:314
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo X Dimension"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "X Dimension"
-msgstr "Снимка - хоризонтален размер"
+msgstr "X Измерение"
 
 #: src/propertyinfo.cpp:320
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Y Dimension"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Y Dimension"
-msgstr "Снимка - вертикален размер"
+msgstr "Y Измерение"
 
 #: src/propertyinfo.cpp:326
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Duration"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Saturation"
-msgstr "Времетраене"
+msgstr "Наситеност"
 
 #: src/propertyinfo.cpp:332
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Sharpness"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Sharpness"
-msgstr "Снимка - острота"
+msgstr "Острота"
 
 #: src/propertyinfo.cpp:338
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo White Balance"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "White Balance"
-msgstr "Снимка - баланс на бялото"
+msgstr "Бял баланс"
 
 #: src/propertyinfo.cpp:344
 #, kde-format
@@ -608,7 +581,7 @@ msgstr "Издател"
 #, kde-format
 msgctxt "@label"
 msgid "Label"
-msgstr ""
+msgstr "Етикет"
 
 #: src/propertyinfo.cpp:356
 #, kde-format
@@ -641,100 +614,94 @@ msgid "Track Number"
 msgstr "Номер на песен"
 
 #: src/propertyinfo.cpp:388
-#, fuzzy, kde-format
-#| msgctxt "@label music track number"
-#| msgid "Track Number"
+#, kde-format
 msgctxt "@label music disc number"
 msgid "Disc Number"
-msgstr "Номер на песен"
+msgstr "Номер на диска"
 
 #: src/propertyinfo.cpp:394
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Duration"
+#, kde-format
 msgctxt "@label"
 msgid "Location"
-msgstr "Времетраене"
+msgstr "Местоположение"
 
 #: src/propertyinfo.cpp:400
 #, kde-format
 msgctxt "@label"
 msgid "Performer"
-msgstr ""
+msgstr "Изпълнител"
 
 #: src/propertyinfo.cpp:406
 #, kde-format
 msgctxt "@label"
 msgid "Ensemble"
-msgstr ""
+msgstr "Ансамбъл"
 
 #: src/propertyinfo.cpp:412
 #, kde-format
 msgctxt "@label"
 msgid "Arranger"
-msgstr ""
+msgstr "Аранжор"
 
 #: src/propertyinfo.cpp:418
 #, kde-format
 msgctxt "@label"
 msgid "Conductor"
-msgstr ""
+msgstr "Диригент"
 
 #: src/propertyinfo.cpp:424
 #, kde-format
 msgctxt "@label"
 msgid "Compilation"
-msgstr ""
+msgstr "Компилация"
 
 #: src/propertyinfo.cpp:430
 #, kde-format
 msgctxt "@label"
 msgid "License"
-msgstr ""
+msgstr "Разрешително"
 
 #: src/propertyinfo.cpp:436
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Lyricist"
+#, kde-format
 msgctxt "@label"
 msgid "Lyrics"
-msgstr "Текст на песента"
+msgstr "Текстове на песни"
 
 #: src/propertyinfo.cpp:442
 #, kde-format
 msgctxt "@label"
 msgid "Opus"
-msgstr ""
+msgstr "Опус"
 
 #: src/propertyinfo.cpp:448
 #, kde-format
 msgctxt "@label"
 msgid "Rating"
-msgstr ""
+msgstr "Рейтинг"
 
 #: src/propertyinfo.cpp:454
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Album Peak"
-msgstr ""
+msgstr "Replay Gain Album Peak"
 
 #: src/propertyinfo.cpp:461
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Album Gain"
-msgstr ""
+msgstr "Replay Gain Album Gain"
 
 #: src/propertyinfo.cpp:468
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Track Peak"
-msgstr ""
+msgstr "Replay Gain Track Peak"
 
 #: src/propertyinfo.cpp:475
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Track Gain"
-msgstr ""
+msgstr "Replay Gain Track Gain"
 
 #: src/propertyinfo.cpp:482
 #, kde-format
@@ -752,24 +719,22 @@ msgstr "Брой думи"
 #, kde-format
 msgctxt "@label number of translatable strings"
 msgid "Translatable Units"
-msgstr ""
+msgstr "Преводими единици"
 
 #: src/propertyinfo.cpp:502
 #, kde-format
 msgctxt "@label number of translated strings"
 msgid "Translations"
-msgstr ""
+msgstr "Преводи"
 
 #: src/propertyinfo.cpp:510
 #, kde-format
 msgctxt "@label number of fuzzy translated strings"
 msgid "Draft Translations"
-msgstr ""
+msgstr "Чернови преводи"
 
 #: src/propertyinfo.cpp:517
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Author"
+#, kde-format
 msgctxt "@label translation author"
 msgid "Author"
 msgstr "Автор"
@@ -778,39 +743,37 @@ msgstr "Автор"
 #, kde-format
 msgctxt "@label translations last update"
 msgid "Last Update"
-msgstr ""
+msgstr "Последна актуализация"
 
 #: src/propertyinfo.cpp:532
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Image Orientation"
+#, kde-format
 msgctxt "@label date of template creation8"
 msgid "Template Creation"
-msgstr "Изображение - ориентация"
+msgstr "Създаване на шаблон"
 
 #: src/propertyinfo.cpp:540
 #, kde-format
 msgctxt "@label the URL a file was originally downloaded from"
 msgid "Downloaded From"
-msgstr ""
+msgstr "Изтеглено от"
 
 #: src/propertyinfo.cpp:547
 #, kde-format
 msgctxt "@label the subject of an email this file was attached to"
 msgid "E-Mail Attachment Subject"
-msgstr ""
+msgstr "Тема на прикачен файл към имейл"
 
 #: src/propertyinfo.cpp:554
 #, kde-format
 msgctxt "@label the sender of an email this file was attached to"
 msgid "E-Mail Attachment Sender"
-msgstr ""
+msgstr "Приложение за изпращач на прикачен файл към имейл"
 
 #: src/propertyinfo.cpp:561
 #, kde-format
 msgctxt "@label the message ID of an email this file was attached to"
 msgid "E-Mail Attachment Message ID"
-msgstr ""
+msgstr "Идентификатор на съобщение за прикачен файл към имейл"
 
 #: src/typeinfo.cpp:34
 #, kde-format
@@ -864,4 +827,4 @@ msgstr "Видео"
 #, kde-format
 msgctxt "@label"
 msgid "Folder"
-msgstr ""
+msgstr "Папка"

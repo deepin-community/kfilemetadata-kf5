@@ -1,18 +1,19 @@
 # Burkhard Lück <lueck@hube-lueck.de>, 2014, 2015, 2016, 2017, 2018, 2019, 2021.
-# Frederik Schwarzer <schwarzer@kde.org>, 2016, 2018.
+# Frederik Schwarzer <schwarzer@kde.org>, 2016, 2018, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-06-09 02:02+0200\n"
-"PO-Revision-Date: 2021-04-18 10:59+0200\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"PO-Revision-Date: 2022-07-11 23:25+0200\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.04.1\n"
 
 #: src/formatstrings.cpp:64
 #, kde-format
@@ -294,7 +295,7 @@ msgstr "%1:1"
 #, kde-format
 msgctxt "F number for photographs"
 msgid "f/%1"
-msgstr ""
+msgstr "f/%1"
 
 #: src/propertyinfo.cpp:49
 #, kde-format
@@ -630,7 +631,7 @@ msgstr "Ensemble"
 #, kde-format
 msgctxt "@label"
 msgid "Arranger"
-msgstr ""
+msgstr "Arrangeur"
 
 #: src/propertyinfo.cpp:418
 #, kde-format
@@ -817,3 +818,47 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Ordner"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Bilderstellung"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "F-Wert (Öffnung/Brennweite) des Fotos"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Foto-Sättigung"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Verwendete Software zur Generierung des Dokuments"
+
+#~ msgid "Path does not seem to contain a valid plugin"
+#~ msgstr "Im Systempfad ist kein gültiges Modul auffindbar"
+
+#~ msgid "Manifest does not seem to be a valid JSON Object"
+#~ msgstr "Das Manifest scheint kein gültiges JSON-Objekt zu sein"
+
+#~ msgid "Something went wrong while trying to write data"
+#~ msgstr "Beim Schreiben von Daten ist ein Problem aufgetreten"
+
+#~| msgid "Plugin could not be converted to an WriterPlugin"
+#~ msgid "Plugin could not be converted to a WriterPlugin"
+#~ msgstr "Das Modul kann nicht in ein Writer-Modul umgewandelt werden"
+
+#~ msgid "Plugin could not create instance"
+#~ msgstr "Das Modul kann keine Instanz erzeugen"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Erstellt von"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generator"

@@ -826,3 +826,48 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Cartella"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Marca dell'immagine"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Numero f della foto"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Saturazione della foto"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Programma utilizzato per generare il documento"
+
+#~ msgid "Path does not seem to contain a valid plugin"
+#~ msgstr "Sembra che il percorso non contenga un'estensione valida"
+
+#~ msgid "Manifest does not seem to be a valid JSON Object"
+#~ msgstr "Sembra che il manifesto non sia un oggetto JSON valido"
+
+#~ msgid "Something went wrong while trying to write data"
+#~ msgstr "Qualcosa è andato storto durante il tentativo di scrivere i dati"
+
+#, fuzzy
+#~| msgid "Plugin could not be converted to an WriterPlugin"
+#~ msgid "Plugin could not be converted to a WriterPlugin"
+#~ msgstr "L'estensione non può essere convertita in un WriterPlugin"
+
+#~ msgid "Plugin could not create instance"
+#~ msgstr "L'estensione non può creare l'istanza"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Creatore"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generatore"

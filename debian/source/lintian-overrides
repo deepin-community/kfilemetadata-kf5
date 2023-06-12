@@ -14,5 +14,5 @@
 # Use linuxdeploy to create the appimage then again.
 # */
 # This file is only used in the autotests for the appimage support
-kfilemetadata-kf5 source: source-is-missing autotests/samplefiles/test.AppImage
-kfilemetadata-kf5 source: source-contains-prebuilt-binary autotests/samplefiles/test.AppImage
+kfilemetadata-kf5 source: source-is-missing [autotests/samplefiles/test.AppImage]
+kfilemetadata-kf5 source: source-contains-prebuilt-binary [autotests/samplefiles/test.AppImage]

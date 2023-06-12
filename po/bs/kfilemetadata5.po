@@ -866,3 +866,19 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr ""
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Pravljenje slike"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "F broj fotografije"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Fotografsko zasićenje"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Softver korišten za generisanje dokumenta"

@@ -1,1 +1,2 @@
 usermetadatawritertest-skip-if-xattr-is-not-supported.patch
+upstream_8eb423d2_Mobi_extractor_only_extract_what_is_asked.patch

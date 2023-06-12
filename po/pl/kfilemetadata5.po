@@ -821,3 +821,48 @@ msgstr "Wideo"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Katalog"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Wykonawstwo obrazu"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Liczba F zdjęcia"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Nasycenie zdjęcia"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Oprogramowanie użyte do utworzenia dokumentu"
+
+#~ msgid "Path does not seem to contain a valid plugin"
+#~ msgstr "Ścieżka nie zawiera prawidłowej wtyczki"
+
+#~ msgid "Manifest does not seem to be a valid JSON Object"
+#~ msgstr "Manifest nie jest prawidłowym obiektem JSON"
+
+#~ msgid "Something went wrong while trying to write data"
+#~ msgstr "Coś poszło nie tak przy próbie zapisu danych"
+
+#, fuzzy
+#~| msgid "Plugin could not be converted to an WriterPlugin"
+#~ msgid "Plugin could not be converted to a WriterPlugin"
+#~ msgstr "Wtyczki nie można było przekształcić na wtyczkę zapisu"
+
+#~ msgid "Plugin could not create instance"
+#~ msgstr "Wtyczka nie może utworzyć wystąpienia"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Twórca"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generator"

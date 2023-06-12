@@ -821,3 +821,34 @@ msgstr "Vídeo"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Cartafol"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Fabricante da imaxe"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Número F da foto"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Saturación da foto"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Unkown"
+#~ msgstr "Descoñecido"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Software usado para xerar o documento."
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Creador"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Xerador"
