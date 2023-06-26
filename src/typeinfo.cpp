@@ -10,7 +10,7 @@
 
 using namespace KFileMetaData;
 
-class Q_DECL_HIDDEN TypeInfo::Private
+class KFileMetaData::TypeInfoPrivate
 {
 public:
     Type::Type type;
@@ -19,7 +19,7 @@ public:
 };
 
 TypeInfo::TypeInfo(Type::Type type)
-    : d(new Private)
+    : d(new TypeInfoPrivate)
 {
     d->type = type;
 
@@ -77,14 +77,11 @@ TypeInfo::TypeInfo(Type::Type type)
 }
 
 TypeInfo::TypeInfo(const TypeInfo& ti)
-    : d(new Private(*ti.d))
+    : d(new TypeInfoPrivate(*ti.d))
 {
 }
 
-TypeInfo::~TypeInfo()
-{
-    delete d;
-}
+TypeInfo::~TypeInfo() = default;
 
 TypeInfo& TypeInfo::operator=(const TypeInfo& rhs)
 {
@@ -92,9 +89,16 @@ TypeInfo& TypeInfo::operator=(const TypeInfo& rhs)
     return *this;
 }
 
+#if KFILEMETADATA_BUILD_DEPRECATED_SINCE(5, 91)
 bool TypeInfo::operator==(const TypeInfo& rhs)
 {
     return d->type == rhs.d->type && d->name == rhs.d->name && d->displayName == rhs.d->displayName;
+}
+#endif
+
+bool TypeInfo::operator==(const TypeInfo& rhs) const
+{
+    return std::tie(d->type, d->name, d->displayName) == std::tie(rhs.d->type, rhs.d->name, rhs.d->displayName);
 }
 
 QString TypeInfo::displayName() const

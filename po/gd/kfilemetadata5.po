@@ -874,3 +874,19 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Pasgan"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Tionndadh an deilbh"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Àireamh F an deilbh"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Sàthachd an deilbh"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Am bathar-bog a chaidh a chleachdadh gus an sgrìobhainn a ghintinn"

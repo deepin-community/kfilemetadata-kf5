@@ -820,3 +820,31 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Folder"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Image Make"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Photo F Number"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Photo Saturation"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Software used to Generate the document"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Creator"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generator"

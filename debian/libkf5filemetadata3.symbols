@@ -102,7 +102,6 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZN13KFileMetaData8TypeInfoaSERKS0_@Base 5.0.2+git20140925
  _ZN13KFileMetaData8TypeInfoeqERKS0_@Base 5.0.2+git20140925
  _ZN13KFileMetaData9Extractor11setMetaDataERK4QMapI7QString8QVariantE@Base 5.61.0
- _ZN13KFileMetaData9Extractor16ExtractorPrivate10initPluginEv@Base 5.61.0
  _ZN13KFileMetaData9Extractor18setExtractorPluginEPNS_15ExtractorPluginE@Base 5.41.0
  _ZN13KFileMetaData9Extractor19setAutoDeletePluginENS0_24ExtractorPluginOwnershipE@Base 5.41.0
  _ZN13KFileMetaData9Extractor7extractEPNS_16ExtractionResultE@Base 5.0.2+git20140925
@@ -161,6 +160,7 @@ libKF5FileMetaData.so.3 libkf5filemetadata3 #MINVER#
  _ZNK13KFileMetaData8TypeInfo11displayNameEv@Base 5.0.0
  _ZNK13KFileMetaData8TypeInfo4nameEv@Base 5.0.0
  _ZNK13KFileMetaData8TypeInfo4typeEv@Base 5.0.2+git20140925
+ _ZNK13KFileMetaData8TypeInfoeqERKS0_@Base 5.93.0
  _ZNK13KFileMetaData9Extractor19extractorPropertiesEv@Base 5.61.0
  _ZNK13KFileMetaData9Extractor9mimetypesEv@Base 5.0.2+git20140925
  _ZNK13KFileMetaData9WriteData10propertiesEv@Base 5.90.0

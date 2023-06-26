@@ -820,3 +820,27 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Mappe"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Billedmærke"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Fotoets F-nummer"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Fotoets farvemætning"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Software brugt til at generere dokumentet"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Oprettet af"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generator"

@@ -822,3 +822,27 @@ msgstr "Videó"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Mappa"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Kép készítő"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Fénykép F-szám"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Fénykép telítettség"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "A dokumentum generálásához használt szoftver"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Létrehozó"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Előállító"

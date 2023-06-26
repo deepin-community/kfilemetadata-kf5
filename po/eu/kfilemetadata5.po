@@ -830,3 +830,19 @@ msgstr "Bideoa"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Karpeta"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Irudia egiteko makinaren fabrikatzailea"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Argazkiaren F zenbakia"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Argazkiaren saturazioa"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Dokumentua sortzeko erabilitako softwarea"

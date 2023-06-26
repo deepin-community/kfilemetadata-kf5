@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Sergiu Bivol <sergiu@cip.md>, 2015, 2020.
+# Sergiu Bivol <sergiu@cip.md>, 2015, 2020, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-06-09 02:02+0200\n"
-"PO-Revision-Date: 2020-09-08 19:37+0100\n"
+"PO-Revision-Date: 2022-02-04 12:57+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian\n"
 "Language: ro\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.12.3\n"
+"X-Generator: Lokalize 21.12.2\n"
 
 #: src/formatstrings.cpp:64
 #, kde-format
@@ -34,19 +34,19 @@ msgstr "Neschimbată"
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Horizontally flipped"
-msgstr ""
+msgstr "Răsturnată pe orizontală"
 
 #: src/formatstrings.cpp:80
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "180° rotated"
-msgstr ""
+msgstr "Rotită la 180°"
 
 #: src/formatstrings.cpp:81
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Vertically flipped"
-msgstr ""
+msgstr "Răsturnată pe verticală"
 
 #: src/formatstrings.cpp:82
 #, kde-format
@@ -64,7 +64,7 @@ msgstr ""
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Transversed"
-msgstr ""
+msgstr "Transversată"
 
 #: src/formatstrings.cpp:85
 #, kde-format
@@ -142,7 +142,7 @@ msgstr "Nu, automat"
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto"
-msgstr ""
+msgstr "Da, auto"
 
 #: src/formatstrings.cpp:108
 #, kde-format
@@ -160,19 +160,19 @@ msgstr ""
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash function"
-msgstr ""
+msgstr "Fără funcție de bliț"
 
 #: src/formatstrings.cpp:111
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, no flash function"
-msgstr ""
+msgstr "Nu, fără funcție de bliț"
 
 #: src/formatstrings.cpp:112
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction"
-msgstr ""
+msgstr "Da, reducere ochi roșii"
 
 #: src/formatstrings.cpp:113
 #, kde-format
@@ -208,7 +208,7 @@ msgstr ""
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, red-eye reduction"
-msgstr ""
+msgstr "Nu, reducere ochi roșii"
 
 #: src/formatstrings.cpp:119
 #, kde-format
@@ -748,7 +748,7 @@ msgstr "Creare șablon"
 #, kde-format
 msgctxt "@label the URL a file was originally downloaded from"
 msgid "Downloaded From"
-msgstr ""
+msgstr "Descărcat de la"
 
 #: src/propertyinfo.cpp:547
 #, kde-format
@@ -821,3 +821,7 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Dosar"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Aplicația folosită pentru generarea documentului"

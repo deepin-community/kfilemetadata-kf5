@@ -2,306 +2,303 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2014, 2015.
+# Emir SARI <emir_sari@icloud.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-06-09 02:02+0200\n"
-"PO-Revision-Date: 2017-10-23 09:49+0000\n"
-"Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
+"PO-Revision-Date: 2022-04-01 14:25+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #: src/formatstrings.cpp:64
 #, kde-format
 msgctxt "@label bitrate (per second)"
 msgid "%1/s"
-msgstr ""
+msgstr "%1/sn"
 
 #: src/formatstrings.cpp:78
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Unchanged"
-msgstr ""
+msgstr "Değiştirilmemiş"
 
 #: src/formatstrings.cpp:79
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Horizontally flipped"
-msgstr ""
+msgstr "Yatay olarak ters çevrilmiş"
 
 #: src/formatstrings.cpp:80
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "180° rotated"
-msgstr ""
+msgstr "180° döndürülmüş"
 
 #: src/formatstrings.cpp:81
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Vertically flipped"
-msgstr ""
+msgstr "Dikey olarak ters çevrilmiş"
 
 #: src/formatstrings.cpp:82
-#, fuzzy, kde-format
-#| msgctxt "@label number of translated strings"
-#| msgid "Translations"
+#, kde-format
 msgctxt "Description of image orientation"
 msgid "Transposed"
-msgstr "Çeviriler"
+msgstr "Dönüştürülmüş"
 
 #: src/formatstrings.cpp:83
 #, kde-format
 msgctxt "Description of image orientation, counter clock-wise rotated"
 msgid "90° rotated CCW "
-msgstr ""
+msgstr "90° saat yönünün tersine döndürülmüş"
 
 #: src/formatstrings.cpp:84
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Transversed"
-msgstr ""
+msgstr "Dönüştürülmüş"
 
 #: src/formatstrings.cpp:85
 #, kde-format
 msgctxt "Description of image orientation, counter clock-wise rotated"
 msgid "270° rotated CCW"
-msgstr ""
+msgstr "270° saat yönünün tersine döndürülmüş"
 
 #: src/formatstrings.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Flash"
+#, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash"
-msgstr "Fotoğraf Flaş"
+msgstr "Flaş yok"
 
 #: src/formatstrings.cpp:97
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired"
-msgstr ""
+msgstr "Ateşlenmiş"
 
 #: src/formatstrings.cpp:98
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired, return light not detected"
-msgstr ""
+msgstr "Ateşlenmiş, dönüş ışığı algılanmamış"
 
 #: src/formatstrings.cpp:99
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired, return light detected"
-msgstr ""
+msgstr "Ateşlenmiş, dönüş ışığı algılanmış"
 
 #: src/formatstrings.cpp:100
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, did not fire"
-msgstr ""
+msgstr "Evet, ateşlenmedi"
 
 #: src/formatstrings.cpp:101
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory"
-msgstr ""
+msgstr "Evet, mecburi"
 
 #: src/formatstrings.cpp:102
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, return light not detected"
-msgstr ""
+msgstr "Evet, mecburi, dönüş ışığı algılanmadı"
 
 #: src/formatstrings.cpp:103
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, return light detected"
-msgstr ""
+msgstr "Evet, mecburi, dönüş ışığı algılandı"
 
 #: src/formatstrings.cpp:104
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, compulsory"
-msgstr ""
+msgstr "Hayır, mecburi"
 
 #: src/formatstrings.cpp:105
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, did not fire, return light not detected"
-msgstr ""
+msgstr "Hayır, ateşlenmedi, dönüş ışığı algılanmadı"
 
 #: src/formatstrings.cpp:106
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, auto"
-msgstr ""
+msgstr "Hayır, otomatik"
 
 #: src/formatstrings.cpp:107
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto"
-msgstr ""
+msgstr "Evet, otomatik"
 
 #: src/formatstrings.cpp:108
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, return light not detected"
-msgstr ""
+msgstr "Evet, otomatik, dönüş ışığı algılanmadı"
 
 #: src/formatstrings.cpp:109
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, return light detected"
-msgstr ""
+msgstr "Evet, otomatik, dönüş ışığı algılandı"
 
 #: src/formatstrings.cpp:110
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash function"
-msgstr ""
+msgstr "Flaş işlevi yok"
 
 #: src/formatstrings.cpp:111
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, no flash function"
-msgstr ""
+msgstr "Hayır, flaş işlevi yok"
 
 #: src/formatstrings.cpp:112
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction"
-msgstr ""
+msgstr "Evet, kırmızı göz azaltma"
 
 #: src/formatstrings.cpp:113
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "Evet, kırmızı göz azaltma, dönüş ışığı algılanmadı"
 
 #: src/formatstrings.cpp:114
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction, return light detected"
-msgstr ""
+msgstr "Evet, kırmızı göz azaltma, dönüş ışığı algılandı"
 
 #: src/formatstrings.cpp:115
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction"
-msgstr ""
+msgstr "Evet, mecburi, kırmızı göz azaltma"
 
 #: src/formatstrings.cpp:116
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "Evet, mecburi, kırmızı göz azaltma, dönüş ışığı algılanmadı"
 
 #: src/formatstrings.cpp:117
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction, return light detected"
-msgstr ""
+msgstr "Evet, mecburi, kırmızı göz azaltma, dönüş ışığı algılandı"
 
 #: src/formatstrings.cpp:118
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, red-eye reduction"
-msgstr ""
+msgstr "Hayır, kırmızı göz azaltma"
 
 #: src/formatstrings.cpp:119
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, auto, red-eye reduction"
-msgstr ""
+msgstr "Hayır, otomatik, kırmızı göz azaltma"
 
 #: src/formatstrings.cpp:120
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction"
-msgstr ""
+msgstr "Evet, otomatik, kırmızı göz azaltma"
 
 #: src/formatstrings.cpp:121
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "Evet, otomatik, kırmızı göz azaltma, dönüş ışığı algılanmadı"
 
 #: src/formatstrings.cpp:122
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction, return light detected"
-msgstr ""
+msgstr "Evet, otomatik, kırmızı göz azaltma, dönüş ışığı algılandı"
 
 #: src/formatstrings.cpp:127
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmiyor"
 
 #: src/formatstrings.cpp:134
 #, kde-format
 msgctxt "Symbol of degree, no space"
 msgid "%1°"
-msgstr ""
+msgstr "%1°"
 
 #: src/formatstrings.cpp:145
 #, kde-format
 msgctxt "Focal length given in mm"
 msgid "%1 mm"
-msgstr ""
+msgstr "%1 mm"
 
 #: src/formatstrings.cpp:150
 #, kde-format
 msgctxt "Symbol of frames per second, with space"
 msgid "%1 fps"
-msgstr ""
+msgstr "%1 fps"
 
 #: src/formatstrings.cpp:160
 #, kde-format
 msgctxt "Time period given in seconds as rational number, denominator is given"
 msgid "1/%1 s"
-msgstr ""
+msgstr "1/%1 sn"
 
 #: src/formatstrings.cpp:163
 #, kde-format
 msgctxt "Time period given in seconds"
 msgid "%1 s"
-msgstr ""
+msgstr "%1 sn"
 
 #: src/formatstrings.cpp:179
 #, kde-format
 msgctxt "Exposure bias/compensation in exposure value (EV)"
 msgid "%1 EV"
-msgstr ""
+msgstr "%1 EV"
 
 #: src/formatstrings.cpp:193
 #, kde-format
 msgctxt ""
 "Exposure compensation given as integral with fraction, in exposure value (EV)"
 msgid "%1 %2/%3 EV"
-msgstr ""
+msgstr "%1 %2/%3 EV"
 
 #: src/formatstrings.cpp:196
 #, kde-format
 msgctxt "Exposure compensation given as rational, in exposure value (EV)"
 msgid "%1/%2 EV"
-msgstr ""
+msgstr "%1/%2 EV"
 
 #: src/formatstrings.cpp:201
 #, kde-format
 msgctxt "Aspect ratio, normalized to one"
 msgid "%1:1"
-msgstr ""
+msgstr "%1:1"
 
 #: src/formatstrings.cpp:206
 #, kde-format
 msgctxt "F number for photographs"
 msgid "f/%1"
-msgstr ""
+msgstr "f/%1"
 
 #: src/propertyinfo.cpp:49
 #, kde-format
@@ -337,7 +334,7 @@ msgstr "Yazar"
 #, kde-format
 msgctxt "@label"
 msgid "Bitrate"
-msgstr "Bit hızı"
+msgstr "Bit Hızı"
 
 #: src/propertyinfo.cpp:87
 #, kde-format
@@ -352,12 +349,10 @@ msgid "Comment"
 msgstr "Yorum"
 
 #: src/propertyinfo.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Duration"
+#, kde-format
 msgctxt "@label"
 msgid "Description"
-msgstr "Süre"
+msgstr "Açıklama"
 
 #: src/propertyinfo.cpp:107
 #, kde-format
@@ -369,7 +364,7 @@ msgstr "Besteci"
 #, kde-format
 msgctxt "@label"
 msgid "Copyright"
-msgstr "Telif hakkı"
+msgstr "Telif Hakkı"
 
 #: src/propertyinfo.cpp:120
 #, kde-format
@@ -417,15 +412,13 @@ msgstr "Resim Tarih Zaman"
 #, kde-format
 msgctxt "@label EXIF"
 msgid "Manufacturer"
-msgstr ""
+msgstr "Üretici"
 
 #: src/propertyinfo.cpp:179
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Image Model"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Model"
-msgstr "Resim Modeli"
+msgstr "Model"
 
 #: src/propertyinfo.cpp:186
 #, kde-format
@@ -437,7 +430,7 @@ msgstr "Resim Yönlendirme"
 #, kde-format
 msgctxt "@label"
 msgid "Keywords"
-msgstr "Anahtar Kelimeler"
+msgstr "Anahtar Sözcükler"
 
 #: src/propertyinfo.cpp:200
 #, kde-format
@@ -464,148 +457,112 @@ msgid "Page Count"
 msgstr "Sayfa Sayısı"
 
 #: src/propertyinfo.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Aperture Value"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Aperture Value"
-msgstr "Sayfa Açıklığı Değeri"
+msgstr "Açıklık Değeri"
 
 #: src/propertyinfo.cpp:232
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Original Date Time"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Original Date Time"
-msgstr "Fotoğrafın Orijinal Tarih Zamanı"
+msgstr "Orijinal Tarih ve Zaman"
 
 #: src/propertyinfo.cpp:239
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Exposure Bias"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Exposure Bias"
-msgstr "Resim Pozlama Dengeleme"
+msgstr "Pozlama Yanılması"
 
 #: src/propertyinfo.cpp:246
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Exposure Time"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Exposure Time"
-msgstr "Fotoğraf Pozlama Süresi"
+msgstr "Pozlama Süresi"
 
 #: src/propertyinfo.cpp:253
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Flash"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Flash"
-msgstr "Fotoğraf Flaş"
+msgstr "Flaş"
 
 #: src/propertyinfo.cpp:260
-#, fuzzy, kde-format
-#| msgctxt "@label music disc number"
-#| msgid "Disc Number"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "F Number"
-msgstr "Disk Numarası"
+msgstr "F Numarası"
 
 #: src/propertyinfo.cpp:267
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Focal Length"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Focal Length"
-msgstr "Fotoğraf Odak uzunluğu"
+msgstr "Odak Uzunluğu"
 
 #: src/propertyinfo.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Focal Length 35mm"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Focal Length 35mm"
-msgstr "Fotoğraf Odak Uzunluğu 35mm"
+msgstr "Odak Uzunluğu 35mm"
 
 #: src/propertyinfo.cpp:281
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Latitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Latitude"
-msgstr "Fotoğraf GPS Enlemi"
+msgstr "GPS Enlemi"
 
 #: src/propertyinfo.cpp:288
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Longitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Longitude"
-msgstr "Fotoğraf GPS Boylamı"
+msgstr "GPS Boylamı"
 
 #: src/propertyinfo.cpp:295
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Altitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Altitude"
-msgstr "Fotoğraf GPS Rakımı"
+msgstr "GPS Rakımı"
 
 #: src/propertyinfo.cpp:302
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo ISO Speed Rating"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "ISO Speed Rating"
-msgstr "Fotoğraf ISO Hız Değerlendirmesi"
+msgstr "ISO Hız Derecelendirmesi"
 
 #: src/propertyinfo.cpp:308
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Metering Mode"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Metering Mode"
-msgstr "Fotoğraf Ölçüm Kipi"
+msgstr "Ölçüm Kipi"
 
 #: src/propertyinfo.cpp:314
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo X Dimension"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "X Dimension"
-msgstr "Fotoğraf X Boyutu"
+msgstr "X Boyutu"
 
 #: src/propertyinfo.cpp:320
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Y Dimension"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Y Dimension"
-msgstr "Fotoğraf Y Boyutu"
+msgstr "Y Boyutu"
 
 #: src/propertyinfo.cpp:326
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Duration"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Saturation"
-msgstr "Süre"
+msgstr "Doygunluk"
 
 #: src/propertyinfo.cpp:332
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Sharpness"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Sharpness"
-msgstr "Fotoğraf Keskinliği"
+msgstr "Keskinlik"
 
 #: src/propertyinfo.cpp:338
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo White Balance"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "White Balance"
-msgstr "Fotoğraf Beyaz Dengesi"
+msgstr "Beyaz Dengesi"
 
 #: src/propertyinfo.cpp:344
 #, kde-format
@@ -617,7 +574,7 @@ msgstr "Yayıncı"
 #, kde-format
 msgctxt "@label"
 msgid "Label"
-msgstr ""
+msgstr "Etiket"
 
 #: src/propertyinfo.cpp:356
 #, kde-format
@@ -656,92 +613,88 @@ msgid "Disc Number"
 msgstr "Disk Numarası"
 
 #: src/propertyinfo.cpp:394
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Duration"
+#, kde-format
 msgctxt "@label"
 msgid "Location"
-msgstr "Süre"
+msgstr "Konum"
 
 #: src/propertyinfo.cpp:400
 #, kde-format
 msgctxt "@label"
 msgid "Performer"
-msgstr ""
+msgstr "Müzisyen"
 
 #: src/propertyinfo.cpp:406
 #, kde-format
 msgctxt "@label"
 msgid "Ensemble"
-msgstr ""
+msgstr "Orkestra"
 
 #: src/propertyinfo.cpp:412
 #, kde-format
 msgctxt "@label"
 msgid "Arranger"
-msgstr ""
+msgstr "Aranjör"
 
 #: src/propertyinfo.cpp:418
 #, kde-format
 msgctxt "@label"
 msgid "Conductor"
-msgstr ""
+msgstr "Kondüktör"
 
 #: src/propertyinfo.cpp:424
 #, kde-format
 msgctxt "@label"
 msgid "Compilation"
-msgstr ""
+msgstr "Derleme"
 
 #: src/propertyinfo.cpp:430
 #, kde-format
 msgctxt "@label"
 msgid "License"
-msgstr ""
+msgstr "Lisans"
 
 #: src/propertyinfo.cpp:436
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Lyricist"
+#, kde-format
 msgctxt "@label"
 msgid "Lyrics"
-msgstr "Söz Yazarı"
+msgstr "Şarkı Sözleri"
 
 #: src/propertyinfo.cpp:442
 #, kde-format
 msgctxt "@label"
 msgid "Opus"
-msgstr ""
+msgstr "Yapıt"
 
 #: src/propertyinfo.cpp:448
 #, kde-format
 msgctxt "@label"
 msgid "Rating"
-msgstr ""
+msgstr "Derecelendirme"
 
 #: src/propertyinfo.cpp:454
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Album Peak"
-msgstr ""
+msgstr "Yeniden Çalma Kazanması Albüm Tavanı"
 
 #: src/propertyinfo.cpp:461
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Album Gain"
-msgstr ""
+msgstr "Yeniden Çalma Kazanması Albüm Kazanması"
 
 #: src/propertyinfo.cpp:468
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Track Peak"
-msgstr ""
+msgstr "Yeniden Çalma Kazanması Parça Tavanı"
 
 #: src/propertyinfo.cpp:475
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Track Gain"
-msgstr ""
+msgstr "Yeniden Çalma Kazanması Parça Kazanması"
 
 #: src/propertyinfo.cpp:482
 #, kde-format
@@ -753,7 +706,7 @@ msgstr "Genişlik"
 #, kde-format
 msgctxt "@label number of words"
 msgid "Word Count"
-msgstr "Kelime Sayımı"
+msgstr "Sözcük Sayımı"
 
 #: src/propertyinfo.cpp:495
 #, kde-format
@@ -792,9 +745,7 @@ msgid "Template Creation"
 msgstr "Şablon Oluşturmak"
 
 #: src/propertyinfo.cpp:540
-#, fuzzy, kde-format
-#| msgctxt "@label the URL a file was originally downloded from"
-#| msgid "Downloaded From"
+#, kde-format
 msgctxt "@label the URL a file was originally downloaded from"
 msgid "Downloaded From"
 msgstr "İndirme Adresi"
@@ -839,7 +790,7 @@ msgstr "Belge"
 #, kde-format
 msgctxt "@label"
 msgid "Image"
-msgstr "Resim"
+msgstr "Görsel"
 
 #: src/typeinfo.cpp:54
 #, kde-format
@@ -870,3 +821,19 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Klasör"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Resim Oluşturma"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Fotoğraf F Numarası"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Fotoğraf Doygunluğu"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Belge oluşturmak için kullanılan yazılım"

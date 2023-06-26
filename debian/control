@@ -7,28 +7,31 @@ Uploaders: Aurélien COUDERC <coucouf@debian.org>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
                doxygen,
-               extra-cmake-modules (>= 5.90.0~),
+               extra-cmake-modules (>= 5.103.0~),
+               libappimage-dev (>= 0.1.10~) [linux-any],
                libattr1-dev,
-               libavcodec-dev (>= 57.48~),
+               libavcodec-dev (>= 7:3.1~),
                libavdevice-dev (>= 3.1~),
-               libavformat-dev (>= 57.40~),
+               libavformat-dev (>= 7:3.1~),
                libavutil-dev,
                libepub-dev,
                libexiv2-dev (>= 0.21),
-               libkf5archive-dev (>= 5.90.0~),
-               libkf5coreaddons-dev (>= 5.90.0~),
-               libkf5i18n-dev (>= 5.90.0~),
+               libkf5archive-dev (>= 5.103.0~),
+               libkf5config-dev (>= 5.103.0~),
+               libkf5coreaddons-dev (>= 5.103.0~),
+               libkf5i18n-dev (>= 5.103.0~),
                libpoppler-qt5-dev (>= 0.12.1),
                libpostproc-dev,
+               libqmobipocket-dev (>= 4:2.0~),
                libqt5sql5-sqlite:native,
-               libswscale-dev,
+               libswscale-dev (>= 7:3.1~),
                libtag1-dev (>= 1.11.1~),
                pkg-config,
                pkg-kde-tools (>= 0.15.18),
                qtbase5-dev (>= 5.15.2~),
                qttools5-dev,
                qttools5-dev-tools,
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: https://invent.kde.org/frameworks/kfilemetadata
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kfilemetadata
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kfilemetadata.git
@@ -36,7 +39,8 @@ Rules-Requires-Root: no
 
 Package: libkf5filemetadata-bin
 Architecture: any
-Depends: catdoc, ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
+Recommends: catdoc,
 Multi-Arch: same
 Description: library for extracting file metadata
  This library is for extracting file metadata.
@@ -48,7 +52,7 @@ Description: library for extracting file metadata
 Package: libkf5filemetadata-data
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .
@@ -61,7 +65,7 @@ Depends: libkf5filemetadata3 (= ${binary:Version}),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},
          ${shlibs:Depends},
-Recommends: libkf5filemetadata-doc (= ${source:Version})
+Recommends: libkf5filemetadata-doc (= ${source:Version}),
 Multi-Arch: same
 Description: library for extracting file metadata
  This library is for extracting file metadata.
@@ -73,7 +77,7 @@ Description: library for extracting file metadata
 Package: libkf5filemetadata-doc
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
 Description: library for extracting file metadata (documentation)
  This library is for extracting file metadata.
  .
@@ -89,7 +93,7 @@ Depends: libkf5filemetadata-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
 Multi-Arch: same
-Recommends: libkf5filemetadata-bin (= ${binary:Version})
+Recommends: libkf5filemetadata-bin (= ${binary:Version}),
 Description: library for extracting file metadata
  This library is for extracting file metadata.
  .

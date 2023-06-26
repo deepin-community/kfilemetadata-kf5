@@ -823,3 +823,28 @@ msgstr "Видеофайл"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Папка"
+
+# See http://www.exiv2.org/tags.html --aspotashev
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Производитель съёмочного оборудования"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Диафрагменное число"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Насыщенность"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Программа, в которой был создан документ"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Создатель"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Программа"

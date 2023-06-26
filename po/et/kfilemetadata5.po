@@ -821,3 +821,19 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Kataloog"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Pildi valmistaja"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Foto F-arv"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Foto küllastus"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Dokumendi genereerimiseks kasutatud tarkvara"

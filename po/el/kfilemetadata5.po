@@ -823,3 +823,27 @@ msgstr "Βίντεο"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Φάκελος"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Κατασκευαστής"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Αριθμός F"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Κορεσμός"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Το λογισμικό που χρησιμοποιήθηκε για τη δημιουργία του εγγράφου"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Δημιουργός"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Γεννήτρια"

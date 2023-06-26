@@ -823,3 +823,27 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Dossier"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Make de image"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Numero F de photographia"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Saturation de photographia"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Software usate per generar le documento"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Creator"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generator"

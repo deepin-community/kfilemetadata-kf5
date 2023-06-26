@@ -2,307 +2,304 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Safa Alfulaij <safa1996alfulaij@gmail.com>, 2015, 2018.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-06-09 02:02+0200\n"
-"PO-Revision-Date: 2018-08-02 15:48+0300\n"
-"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
+"PO-Revision-Date: 2022-10-02 19:41+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #: src/formatstrings.cpp:64
 #, kde-format
 msgctxt "@label bitrate (per second)"
 msgid "%1/s"
-msgstr ""
+msgstr "%1/ث"
 
 #: src/formatstrings.cpp:78
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Unchanged"
-msgstr ""
+msgstr "غير معدل"
 
 #: src/formatstrings.cpp:79
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Horizontally flipped"
-msgstr ""
+msgstr "مقلوبة أفقيا"
 
 #: src/formatstrings.cpp:80
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "180° rotated"
-msgstr ""
+msgstr "مدورة 180°"
 
 #: src/formatstrings.cpp:81
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Vertically flipped"
-msgstr ""
+msgstr "مقلوبة عموديا"
 
 #: src/formatstrings.cpp:82
-#, fuzzy, kde-format
-#| msgctxt "@label number of translated strings"
-#| msgid "Translations"
+#, kde-format
 msgctxt "Description of image orientation"
 msgid "Transposed"
-msgstr "الترجمات"
+msgstr "منقول"
 
 #: src/formatstrings.cpp:83
 #, kde-format
 msgctxt "Description of image orientation, counter clock-wise rotated"
 msgid "90° rotated CCW "
-msgstr ""
+msgstr "مدورة 90° عكس اتجاه عقارب الساعة"
 
 #: src/formatstrings.cpp:84
 #, kde-format
 msgctxt "Description of image orientation"
 msgid "Transversed"
-msgstr ""
+msgstr "مستعرضة"
 
 #: src/formatstrings.cpp:85
 #, kde-format
 msgctxt "Description of image orientation, counter clock-wise rotated"
 msgid "270° rotated CCW"
-msgstr ""
+msgstr "مدورة 270° عكس اتجاه عقارب الساعة"
 
 #: src/formatstrings.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Flash"
+#, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash"
-msgstr "وميض الصورة"
+msgstr "بدون وميض"
 
 #: src/formatstrings.cpp:97
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired"
-msgstr ""
+msgstr "استُخدِم"
 
 #: src/formatstrings.cpp:98
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired, return light not detected"
-msgstr ""
+msgstr "استُخدِم، لم يرجع الضوء"
 
 #: src/formatstrings.cpp:99
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Fired, return light detected"
-msgstr ""
+msgstr "استُخدِم، رجع الضوء"
 
 #: src/formatstrings.cpp:100
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, did not fire"
-msgstr ""
+msgstr "نعم، لم يستعمل"
 
 #: src/formatstrings.cpp:101
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory"
-msgstr ""
+msgstr "نعم، إجباري"
 
 #: src/formatstrings.cpp:102
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, return light not detected"
-msgstr ""
+msgstr "نعم، إجباري، لم يرجع الضوء"
 
 #: src/formatstrings.cpp:103
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, return light detected"
-msgstr ""
+msgstr "نعم، إجباري، رجع الضوء"
 
 #: src/formatstrings.cpp:104
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, compulsory"
-msgstr ""
+msgstr "لا، إجباري"
 
 #: src/formatstrings.cpp:105
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, did not fire, return light not detected"
-msgstr ""
+msgstr "لا، لم يستخدم، لم يرجع الضوء"
 
 #: src/formatstrings.cpp:106
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, auto"
-msgstr ""
+msgstr "لا، آلي"
 
 #: src/formatstrings.cpp:107
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto"
-msgstr ""
+msgstr "نعم، آلي"
 
 #: src/formatstrings.cpp:108
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, return light not detected"
-msgstr ""
+msgstr "نعم، آلي، لم يرجع الضوء"
 
 #: src/formatstrings.cpp:109
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, return light detected"
-msgstr ""
+msgstr "نعم، آلي، رجع الضوء"
 
 #: src/formatstrings.cpp:110
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No flash function"
-msgstr ""
+msgstr "لا يوجد ميزة الوميض"
 
 #: src/formatstrings.cpp:111
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, no flash function"
-msgstr ""
+msgstr "لا، لا يوجد ميزة الوميض"
 
 #: src/formatstrings.cpp:112
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction"
-msgstr ""
+msgstr "نعم، إنقاص العين الحمراء"
 
 #: src/formatstrings.cpp:113
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "نعم، إنقاص العين الحمراء، لم يرجع الضوء"
 
 #: src/formatstrings.cpp:114
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, red-eye reduction, return light detected"
-msgstr ""
+msgstr "نعم، إنقاص العين الحمراء، رجع الضوء"
 
 #: src/formatstrings.cpp:115
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction"
-msgstr ""
+msgstr "نعم، إجباري، إنقاص العين الحمراء"
 
 #: src/formatstrings.cpp:116
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "نعم، إجباري، إنقاص العين الحمراء، لم يرجع الضوء"
 
 #: src/formatstrings.cpp:117
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, compulsory, red-eye reduction, return light detected"
-msgstr ""
+msgstr "نعم، إجباري، إنقاص العين الحمراء، رجع الضوء"
 
 #: src/formatstrings.cpp:118
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, red-eye reduction"
-msgstr ""
+msgstr "لا، إنقاص العين الحمراء"
 
 #: src/formatstrings.cpp:119
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "No, auto, red-eye reduction"
-msgstr ""
+msgstr "لا، آلي، إنقاص العين الحمراء"
 
 #: src/formatstrings.cpp:120
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction"
-msgstr ""
+msgstr "نعم، آلي، إنقاص العين الحمراء"
 
 #: src/formatstrings.cpp:121
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction, return light not detected"
-msgstr ""
+msgstr "نعم، آلي، إنقاص العين الحمراء، لم يرجع الضوء"
 
 #: src/formatstrings.cpp:122
 #, kde-format
 msgctxt "Description of photo flash"
 msgid "Yes, auto, red-eye reduction, return light detected"
-msgstr ""
+msgstr "نعم، آلي، إنقاص العين الحمراء، رجع الضوء"
 
 #: src/formatstrings.cpp:127
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "مجهول"
 
 #: src/formatstrings.cpp:134
 #, kde-format
 msgctxt "Symbol of degree, no space"
 msgid "%1°"
-msgstr ""
+msgstr "%1°"
 
 #: src/formatstrings.cpp:145
 #, kde-format
 msgctxt "Focal length given in mm"
 msgid "%1 mm"
-msgstr ""
+msgstr "%1 مم"
 
 #: src/formatstrings.cpp:150
 #, kde-format
 msgctxt "Symbol of frames per second, with space"
 msgid "%1 fps"
-msgstr ""
+msgstr "%1  إطار/ثا"
 
 #: src/formatstrings.cpp:160
 #, kde-format
 msgctxt "Time period given in seconds as rational number, denominator is given"
 msgid "1/%1 s"
-msgstr ""
+msgstr "1/%1 ث"
 
 #: src/formatstrings.cpp:163
 #, kde-format
 msgctxt "Time period given in seconds"
 msgid "%1 s"
-msgstr ""
+msgstr "%1 ث"
 
 #: src/formatstrings.cpp:179
 #, kde-format
 msgctxt "Exposure bias/compensation in exposure value (EV)"
 msgid "%1 EV"
-msgstr ""
+msgstr "%1 ق ت"
 
 #: src/formatstrings.cpp:193
 #, kde-format
 msgctxt ""
 "Exposure compensation given as integral with fraction, in exposure value (EV)"
 msgid "%1 %2/%3 EV"
-msgstr ""
+msgstr "%1 %2/%3 ق ت"
 
 #: src/formatstrings.cpp:196
 #, kde-format
 msgctxt "Exposure compensation given as rational, in exposure value (EV)"
 msgid "%1/%2 EV"
-msgstr ""
+msgstr "%1/%2 ق ت"
 
 #: src/formatstrings.cpp:201
 #, kde-format
 msgctxt "Aspect ratio, normalized to one"
 msgid "%1:1"
-msgstr ""
+msgstr "%1:1"
 
 #: src/formatstrings.cpp:206
 #, kde-format
 msgctxt "F number for photographs"
 msgid "f/%1"
-msgstr ""
+msgstr "f/%1"
 
 #: src/propertyinfo.cpp:49
 #, kde-format
@@ -350,15 +347,13 @@ msgstr "القنوات"
 #, kde-format
 msgctxt "@label"
 msgid "Comment"
-msgstr "تعليق"
+msgstr "التعليق"
 
 #: src/propertyinfo.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Duration"
+#, kde-format
 msgctxt "@label"
 msgid "Description"
-msgstr "المدة"
+msgstr "الوصف"
 
 #: src/propertyinfo.cpp:107
 #, kde-format
@@ -394,7 +389,7 @@ msgstr "معدل الإطارات"
 #, kde-format
 msgctxt "@label"
 msgid "Document Generated By"
-msgstr "برمجية توليد الملف"
+msgstr "ولّد المستند بواسطة"
 
 #: src/propertyinfo.cpp:153
 #, kde-format
@@ -418,15 +413,13 @@ msgstr "تاريخ الصورة ووقتها"
 #, kde-format
 msgctxt "@label EXIF"
 msgid "Manufacturer"
-msgstr ""
+msgstr "المصنّع"
 
 #: src/propertyinfo.cpp:179
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Image Model"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Model"
-msgstr "طراز الصورة"
+msgstr "الطّراز"
 
 #: src/propertyinfo.cpp:186
 #, kde-format
@@ -465,151 +458,115 @@ msgid "Page Count"
 msgstr "عدد الصفحات"
 
 #: src/propertyinfo.cpp:225
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Aperture Value"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Aperture Value"
-msgstr "قيمة فتحة الصورة"
+msgstr "قيمة الفتحة"
 
 #: src/propertyinfo.cpp:232
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Original Date Time"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Original Date Time"
-msgstr "تاريخ الصورة ووقتها الأصليين"
+msgstr "تاريخ والوقت الأصليين"
 
 #: src/propertyinfo.cpp:239
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Exposure Bias"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Exposure Bias"
-msgstr "تحيّز تعرّض الصورة"
+msgstr "تحيّز التعرّض"
 
 #: src/propertyinfo.cpp:246
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Exposure Time"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Exposure Time"
-msgstr "زمن تعرّض الصورة"
+msgstr "زمن التعرض"
 
 #: src/propertyinfo.cpp:253
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Flash"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Flash"
-msgstr "وميض الصورة"
+msgstr "الوميض:"
 
 #: src/propertyinfo.cpp:260
-#, fuzzy, kde-format
-#| msgctxt "@label music disc number"
-#| msgid "Disc Number"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "F Number"
-msgstr "رقم الأسطوانة"
+msgstr "عدد البؤرة"
 
 #: src/propertyinfo.cpp:267
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Focal Length"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Focal Length"
-msgstr "طول الصورة البؤريّ"
+msgstr "الطول البؤريّ"
 
 #: src/propertyinfo.cpp:274
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Focal Length 35mm"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Focal Length 35mm"
-msgstr "طول الصورة البؤريّ ٣٥مم"
+msgstr "الطول البؤريّ ٣٥مم"
 
 # ترجمة خالد حسني
 #: src/propertyinfo.cpp:281
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Latitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Latitude"
-msgstr "إحداثي دائرة عرض الصورة"
+msgstr "إحداثي دائرة العرض"
 
 # ترجمة خالد حسني
 #: src/propertyinfo.cpp:288
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Longitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Longitude"
-msgstr "إحداثي خط طول الصورة"
+msgstr "إحداثي خط الطول"
 
 # ترجمة خالد حسني
 #: src/propertyinfo.cpp:295
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo GPS Altitude"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "GPS Altitude"
-msgstr "إحداثي الارتفاع الرأسي للصورة"
+msgstr "إحداثي الارتفاع الرأسي"
 
 #: src/propertyinfo.cpp:302
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo ISO Speed Rating"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "ISO Speed Rating"
-msgstr "تقييم سرعة آيزو للصورة"
+msgstr "تقييم سرعة آيزو"
 
 #: src/propertyinfo.cpp:308
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Metering Mode"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Metering Mode"
-msgstr "وضع قياس الصورة"
+msgstr "وضع القياس"
 
 #: src/propertyinfo.cpp:314
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo X Dimension"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "X Dimension"
-msgstr "بُعد الصورة السيني"
+msgstr "البُعد السيني"
 
 #: src/propertyinfo.cpp:320
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Y Dimension"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Y Dimension"
-msgstr "بُعد الصورة الصادي"
+msgstr "البُعد الصادي"
 
 #: src/propertyinfo.cpp:326
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Duration"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Saturation"
-msgstr "المدة"
+msgstr "التشبع"
 
 #: src/propertyinfo.cpp:332
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo Sharpness"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "Sharpness"
-msgstr "حِدّة الصورة"
+msgstr "الوضوح"
 
 #: src/propertyinfo.cpp:338
-#, fuzzy, kde-format
-#| msgctxt "@label EXIF"
-#| msgid "Photo White Balance"
+#, kde-format
 msgctxt "@label EXIF"
 msgid "White Balance"
-msgstr "توازن الصورة الأبيض"
+msgstr "توازن الأبيض"
 
 #: src/propertyinfo.cpp:344
 #, kde-format
@@ -723,25 +680,25 @@ msgstr "التقييم"
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Album Peak"
-msgstr ""
+msgstr "رفع الإعادة قمة الألبوم"
 
 #: src/propertyinfo.cpp:461
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Album Gain"
-msgstr ""
+msgstr "رفع الإعادة رفع الألبوم"
 
 #: src/propertyinfo.cpp:468
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Track Peak"
-msgstr ""
+msgstr "رفع الإعادة قمة المسار"
 
 #: src/propertyinfo.cpp:475
 #, kde-format
 msgctxt "@label"
 msgid "Replay Gain Track Gain"
-msgstr ""
+msgstr "إعادة رافعة رفع المسار"
 
 #: src/propertyinfo.cpp:482
 #, kde-format
@@ -765,13 +722,13 @@ msgstr "الوحدات التي يمكن ترجمتها"
 #, kde-format
 msgctxt "@label number of translated strings"
 msgid "Translations"
-msgstr "الترجمات"
+msgstr "ترجمة"
 
 #: src/propertyinfo.cpp:510
 #, kde-format
 msgctxt "@label number of fuzzy translated strings"
 msgid "Draft Translations"
-msgstr "الترجمات المسودّة"
+msgstr "ترجمة مسودّة"
 
 #: src/propertyinfo.cpp:517
 #, kde-format
@@ -792,12 +749,10 @@ msgid "Template Creation"
 msgstr "إنشاء القالب"
 
 #: src/propertyinfo.cpp:540
-#, fuzzy, kde-format
-#| msgctxt "@label the URL a file was originally downloded from"
-#| msgid "Downloaded From"
+#, kde-format
 msgctxt "@label the URL a file was originally downloaded from"
 msgid "Downloaded From"
-msgstr "نُزّل من"
+msgstr "منزل من"
 
 #: src/propertyinfo.cpp:547
 #, kde-format
@@ -863,10 +818,26 @@ msgstr "نص"
 #, kde-format
 msgctxt "@label"
 msgid "Video"
-msgstr "فديو"
+msgstr "فيديو"
 
 #: src/typeinfo.cpp:74
 #, kde-format
 msgctxt "@label"
 msgid "Folder"
 msgstr "مجلد"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "صانع الصورة"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "رقم ”إف“ الصورة"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "تشبّع الصورة"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "البرمجيّة المستخدم لتوليد المستند"

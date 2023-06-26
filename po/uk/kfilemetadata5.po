@@ -824,3 +824,39 @@ msgstr "Відео"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Тека"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Виробник засобу створення зображення"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "Діафрагмове число фотографії"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Насиченість фотографії"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Програма, яку було використано для створення документа"
+
+#~ msgid "Path does not seem to contain a valid plugin"
+#~ msgstr "У вказаному каталозі, здається, не міститься коректного додатка"
+
+#~ msgid "Manifest does not seem to be a valid JSON Object"
+#~ msgstr "Здається, маніфест не є коректним об’єктом JSON"
+
+#~ msgid "Something went wrong while trying to write data"
+#~ msgstr "Під час спроби виконати запис виникли якісь проблеми"
+
+#~| msgid "Plugin could not be converted to an WriterPlugin"
+#~ msgid "Plugin could not be converted to a WriterPlugin"
+#~ msgstr "Не вдалося перетворити додаток на WriterPlugin"
+
+#~ msgid "Plugin could not create instance"
+#~ msgstr "Додатку не вдалося створити екземпляр"

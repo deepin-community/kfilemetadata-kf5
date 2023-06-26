@@ -821,3 +821,50 @@ msgstr "Video"
 msgctxt "@label"
 msgid "Folder"
 msgstr "Map"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Image Make"
+#~ msgstr "Maker van afbeelding"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo F Number"
+#~ msgstr "F-getal van de foto"
+
+#~ msgctxt "@label EXIF"
+#~ msgid "Photo Saturation"
+#~ msgstr "Verzadiging van de foto"
+
+#~ msgctxt "Separation between multiple entries in a list"
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid "Unkown"
+#~ msgstr "Onbekend"
+
+#~ msgctxt "@label"
+#~ msgid "Software used to Generate the document"
+#~ msgstr "Gebruikte software voor het genereren van het document"
+
+#~ msgid "Path does not seem to contain a valid plugin"
+#~ msgstr "Pad lijkt geen geldige plug-in te bevatten"
+
+#~ msgid "Manifest does not seem to be a valid JSON Object"
+#~ msgstr "Manifest lijkt geen geldig JSON Object te zijn"
+
+#~ msgid "Something went wrong while trying to write data"
+#~ msgstr "Er is iets fout gegaan bij het wegschrijven van gegevens"
+
+#~| msgid "Plugin could not be converted to an WriterPlugin"
+#~ msgid "Plugin could not be converted to a WriterPlugin"
+#~ msgstr "Plug-in zou niet geconverteerd moeten worden naar een WriterPlugin"
+
+#~ msgid "Plugin could not create instance"
+#~ msgstr "Plug-in kon geen exemplaar aanmaken"
+
+#~ msgctxt "@label"
+#~ msgid "Creator"
+#~ msgstr "Maker"
+
+#~ msgctxt "@label"
+#~ msgid "Generator"
+#~ msgstr "Generator"
